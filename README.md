@@ -3,6 +3,7 @@
 Plots your Google location data on a map for visualization. Good for desktop background images. All processing performed on the executing machine; your data is entirely private to you (and Google, of course...).
 
 ![Example result](assets/images/Example.png)
+Download image to view more detail.
 
 ## Installation
 
@@ -20,7 +21,7 @@ Arguments
 - `location` Path to file with location history data downloaded from Google Takeout (`Location History.json`)
 - `image` Path to image on which your location data is plotted. A high-res, centered image is provided at `assets/images/Earth.png`
 - `output` Output location. Defaults to `result.png`
-- `size` Width of points and lines plotted to image
-- `lines` Whether to display lines connecting location points
+- `size` Width of points and lines plotted to image. The smaller the width, the more the detail.
+- `lines` Whether to display lines connecting location points.
 
 Open up the image and enjoy!
