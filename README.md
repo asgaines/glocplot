@@ -15,16 +15,17 @@ Great for desktop wallpaper, especially after cropping.
 
 ## Usage
 
-First download data from Google ([google.com/takeout](https://google.com/takeout)). Ensure the `Location History` app is toggled on and `JSON format` is selected. Download and unzip.
+First, download your data from Google ([google.com/takeout](https://google.com/takeout)). Ensure the `Location History` app is toggled on and `JSON format` is selected. Download and unzip.
 
-Example ``glocplot -location ~/Downloads/Takeout/Location\ History/Location\ History.json -image `go env GOPATH`/src/github.com/asgaines/glocplot/assets/images/Earth.png``
-Output will be written to `result.png` in working directory.
+Example `glocplot -location=~/Downloads/Takeout/Location\ History/Location\ History.json`
+
+Output will be written to `result.png` in working directory by default.
 
 Arguments
-- `location` Path to file with location history data downloaded from Google Takeout (`Location History.json`)
-- `image` Path to image on which your location data is plotted. A high-res, centered image is provided at `assets/images/Earth.png`
-- `output` Output location. Defaults to `result.png`
-- `size` Width of points and lines plotted to image. The smaller the width, the more the detail.
-- `lines` Whether to display lines connecting location points.
+- `-location` *required* Path to file with location history data downloaded from Google Takeout (`Location History.json`)
+- `-image` Path to image on which your location data is plotted. A high-res, centered image is provided at `./assets/images/Earth.png`
+- `-output` Output location. Defaults to `result.png`
+- `-size` Width of points and lines plotted to image. The smaller the width, the more the detail. Default is 1
+- `-lines` Whether to display lines connecting location points. Default is true. (`-lines=true`/`-lines=false`)
 
 Open up the image and enjoy!
