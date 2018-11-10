@@ -17,7 +17,7 @@ Plot your Google location data on a map for visualization. All processing perfor
 
 First, download your data from Google ([google.com/takeout](https://google.com/takeout)). Ensure the `Location History` app is toggled on and `JSON format` is selected. Download and unzip.
 
-Example `glocplot -location=~/Downloads/Takeout/Location\ History/Location\ History.json`
+Example `glocplot -location ~/Downloads/Takeout/Location\ History/Location\ History.json`
 
 Output will be written to `result.png` in working directory by default.
 
