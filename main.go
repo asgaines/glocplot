@@ -28,7 +28,7 @@ func main() {
 
 	flag.StringVar(&locationF, "location", "", "Path to file with location history")
 	flag.StringVar(&imageF, "image", filepath.Join(gopath, "src/github.com/asgaines/glocplot/assets/images/Earth.png"), "Path to map image")
-	flag.StringVar(&outputImageF, "output", "result.png", "Image output filename")
+	flag.StringVar(&outputImageF, "output", "glocplot_result.png", "Image output filename")
 	flag.UintVar(&size, "size", 1, "Size of each point and width of line")
 	flag.BoolVar(&showLines, "lines", true, "Show lines between points for continuity")
 	flag.Parse()

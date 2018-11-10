@@ -19,12 +19,12 @@ First, download your data from Google ([google.com/takeout](https://google.com/t
 
 Example `glocplot -location ~/Downloads/Takeout/Location\ History/Location\ History.json`
 
-Output will be written to `result.png` in working directory by default.
+Output will be written to `./glocplot_result.png` in working directory by default.
 
 Arguments
 - `-location` *required* Path to file with location history data downloaded from Google Takeout (`Location History.json`)
 - `-image` Path to image on which your location data is plotted. A high-res, centered image is provided at `./assets/images/Earth.png`
-- `-output` Output location. Defaults to `result.png`
+- `-output` Output location. Defaults to `./glocplot_result.png`
 - `-size` Width of points and lines plotted to image. The smaller the width, the more the detail. Default is 1
 - `-lines` Whether to display lines connecting location points. Default is true. (`-lines=true`/`-lines=false`)
 
