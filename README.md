@@ -10,6 +10,7 @@ Plot your Google location data on a map for visualization. All processing perfor
 
 ## Installation
 
+Have [Go](https://golang.org/doc/install) installed first, then:\
 `go get github.com/asgaines/glocplot`\
 `go install github.com/asgaines/glocplot`
 
