@@ -1,13 +1,16 @@
 # glocplot: Google Location Plotter
 
-Plots your Google location data on a map for visualization. Good for desktop background images. All processing performed on the executing machine; your data is entirely private to you (and Google, of course...).
+Plot your Google location data on a map for visualization. All processing performed on the executing machine; your data is entirely private to you (and Google, of course...).
 
 ![Example result](assets/images/Example.png)
-Download image to view more detail.
+Example result (Download image to view more detail)
+
+![Desktop wallpaper](assets/images/Wallpaper.png)
+Great for desktop wallpaper, especially after cropping.
 
 ## Installation
 
-`go get github.com/asgaines/glocplot`
+`go get github.com/asgaines/glocplot`\
 `go install github.com/asgaines/glocplot`
 
 ## Usage
