@@ -15,8 +15,8 @@ type point struct {
 }
 
 func Locations(dimg *draw.Image, locations *[]models.Location, size uint, showLines bool) error {
-	red := color.RGBA{255, 50, 50, 255}
-	blue := color.RGBA{150, 150, 255, 255}
+	red := color.RGBA{199, 71, 102, 255}
+	blue := color.RGBA{71, 168, 224, 255}
 
 	previous := point{
 		x: -1,
