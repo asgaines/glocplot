@@ -2,11 +2,11 @@
 
 Plot your Google location data on a map for visualization. All processing performed on the executing machine; your data is entirely private to you (and Google, of course...).
 
+### Example result (Download image to view more detail)
 ![Example result](assets/images/Example.png)
-Example result (Download image to view more detail)
 
+### Great for desktop wallpaper, especially after cropping.
 ![Desktop wallpaper](assets/images/Wallpaper.png)
-Great for desktop wallpaper, especially after cropping.
 
 ## Installation
 
